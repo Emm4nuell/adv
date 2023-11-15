@@ -1,0 +1,14 @@
+.container{
+    margin-top: 19px;
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, p{
+    font-size: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

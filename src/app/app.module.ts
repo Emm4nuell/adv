@@ -7,11 +7,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 // Componentes do sistema
 import { NavComponent } from './components/nav/nav.component';
+import { SectionComponent } from './components/section/section.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavComponent
+    NavComponent,
+    SectionComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

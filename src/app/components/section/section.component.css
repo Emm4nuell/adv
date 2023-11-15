@@ -1,0 +1,41 @@
+.container{
+    background-color: rgb(28, 28, 28);
+
+}
+
+.container .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.logo img{
+    width: 60%;
+    height: 369px;
+    transition: 1s;
+}
+
+.sectionprocessos{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.sectionprocessos .div1{
+    width: 20%;
+    height: 200px;
+    margin-top: 50px;
+    background-color: #a1a1a1;
+    box-shadow:6px 6px 1em #666666;
+}
+
+
+
+@media only screen and (max-width: 770px) {
+    .logo img{
+       width: 100%;
+       transition: 1s;
+    }
+  }
