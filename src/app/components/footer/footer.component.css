@@ -8,7 +8,13 @@
     justify-content: center;
 }
 
-h1, p{
+h1{
     font-size: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media only screen and (max-width: 770px) {
+    .container h1{
+        font-size: 10px;
+    }
 }
